@@ -95,8 +95,18 @@ img {
 }
 /*Класи для хіросекшн*/
 .hero {
-    background: var(--backgroundcolordark);
+    /*background: var(--backgroundcolordark);*/
+    
     padding: 200px 0;
+}
+.overlay {
+    max-width: 1600px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/overlay.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero-title {
     color: var(--whitecolor);
@@ -117,6 +127,7 @@ img {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
+    border: 0;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin: 30px auto 0 auto;
