@@ -215,6 +215,8 @@ img {
 }
 .team-item {
     background-color: var(--whitecolor);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .worker-and-position {
     padding: 30px 0;
@@ -399,6 +401,7 @@ img {
     cursor: pointer;
     background-color: var(--bluecolor);
     color: var(--whitecolor);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-list {
     display: flex;
@@ -411,6 +414,9 @@ img {
 .project-item {
     margin-left: 30px;
     max-width: 370px;
+}
+.project-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /*Кожен третій починаючи з першого обнуляємо лівий маржин визначений вище*/
 .project-item:nth-child(3n+1) {
