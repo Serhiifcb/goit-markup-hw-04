@@ -87,11 +87,17 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
 }
 .contact-header {
     margin: 0 0 0 auto;
     display: flex;
     padding: 0;
+}
+.icon-contact-header{
+    align-self: center;
+    margin-right: 10px;
+    fill: currentColor;
 }
 /*Класи для хіросекшн*/
 .hero {
